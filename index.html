@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="./dist/css/Style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="report">
+        <div class="report1">
+          <img src="/images/image-jeremy.png" alt="" />
+          <div class="report1_sub">
+            <h4>Report for</h4>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <ul>
+          <li><a href="#" class="daily">Daily</a></li>
+          <li><a href="#" class="weekly"> Weekly</a></li>
+          <li><a href="#" class="monthly"> Monthly</a></li>
+        </ul>
+      </div>
+      <div class="time">
+        <div class="dashboard1">
+          <div class="cards work">
+            <div class="work1 card">
+              <div class="work_sub">
+                <h3>Work</h3>
+                <div class="menu">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+              <div class="work_can can">
+                <div class="work_daily worktype">
+                  <!-- daily -->
+                  <h2>5hrs</h2>
+                  <p>Previous - 7hrs</p>
+                </div>
+                <!-- daily -->
+                <!-- weekly -->
+                <!-- <div class="work_weekly worktype">
+                <h2>32hrs</h2>
+                <h4>Previous - 36hrs</h4>
+              </div>
+              <!-- weekly -->
+                <!-- monthly -->
+                <!--
+
+                <div class="work_monthly worktype">
+                  <h2>103hrs</h2>
+                  <h4>Previous - 128hrs</h4>
+                </div>-->
+              </div>
+              <!-- monthly -->
+            </div>
+            <img src="/images/icon-work.svg" alt="" />
+          </div>
+          <!-- PLAY CARDS -->
+          <div class="cards play">
+            <div class="work1 card">
+              <div class="work_sub">
+                <h3>Play</h3>
+                <div class="menu">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+              <div class="work_can can">
+                <div class="play_daily worktype">
+                  <h2>1hr</h2>
+                  <p>Previous - 2hrs</p>
+                </div>
+                <!-- daily 
+    
+                  <!-- daily -->
+                <!-- 10hrs -->
+                <!-- weekly -->
+                <!-- Previous - 8hrs -->
+                <!-- weekly -->
+                <!-- 23hrs -->
+                <!-- monthly -->
+                <!-- Previous - 29hrs -->
+                <!-- monthly -->
+              </div>
+            </div>
+
+            <img src="/images/icon-play.svg" alt="" />
+          </div>
+          <!-- STUDY CARDS -->
+          <div class="cards study">
+            <div class="work1 card">
+              <div class="work_sub">
+                <h3>Study</h3>
+                <div class="menu">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+              <div class="work_can can">
+                <div class="work_daily worktype">
+                  <h2>0hrs</h2>
+                  <p>Previous - 1hr</p>
+                </div>
+
+                <!-- daily -->
+
+                <!-- daily -->
+                <!-- 4hrs -->
+                <!-- weekly -->
+                <!-- Previous - 7hrs -->
+                <!-- weekly -->
+                <!-- 13hrs -->
+                <!-- monthly -->
+                <!-- Previous - 19hrs -->
+                <!-- monthly -->
+              </div>
+            </div>
+            <img src="/images/icon-study.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="dashboard2">
+          <div class="cards exercise">
+            <div class="work1 card">
+              <div class="work_sub">
+                <h3>Exercise</h3>
+                <div class="menu">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+              <div class="work_can can">
+                <div class="work_daily worktype">
+                  <!-- daily -->
+                  <h2>1hr</h2>
+                  <p>Previous - 1hr</p>
+                </div>
+                <!-- daily -->
+
+                <!-- daily -->
+                <!-- 4hrs -->
+                <!-- weekly -->
+                <!-- Previous - 5hrs -->
+                <!-- weekly -->
+                <!-- 11hrs -->
+                <!-- monthly -->
+                <!-- Previous - 18hrs -->
+                <!-- monthly -->
+              </div>
+            </div>
+            <img src="/images/icon-exercise.svg" alt="" />
+          </div>
+          <div class="cards social">
+            <div class="work1 card">
+              <div class="work_sub">
+                <h3>Social</h3>
+                <div class="menu">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+              <div class="work_can can">
+                <div class="work_daily worktype">
+                  <!-- daily -->
+                  <h2>1hr</h2>
+                  <p>Previous - 3hrs</p>
+                </div>
+
+                <!-- 5hrs -->
+                <!-- weekly -->
+                <!-- Previous - 10hrs -->
+                <!-- weekly -->
+                <!-- 21hrs -->
+                <!-- monthly -->
+                <!-- Previous - 23hrs -->
+                <!-- monthly -->
+              </div>
+            </div>
+            <img src="/images/icon-social.svg" alt="" />
+          </div>
+          <div class="cards care">
+            <div class="work1 card">
+              <div class="work_sub">
+                <h3>Self Care</h3>
+                <div class="menu">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+              <div class="work_can can">
+                <div class="work_daily worktype">
+                  <!-- daily -->
+                  <h2>0hrs</h2>
+                  <p>Previous - 1hr</p>
+                </div>
+                <!-- 2hrs/ -->
+                <!-- weekly -->
+                <!-- Previous - 2hrs -->
+                <!-- weekly -->
+                <!-- 7hrs -->
+                <!-- monthly -->
+                <!-- Previous - 11hrs -->
+                <!-- monthly -->
+              </div>
+            </div>
+            <img src="/images/icon-self-care.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script type="text/javascript" src="/data.json"></script>
+    <script type="text/javascript" src="./App.js"></script>
+  </body>
+</html>
